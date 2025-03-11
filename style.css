@@ -1,20 +1,15 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
 }
 
 header {
-    background: #333;
-    color: white;
+    background: #222;
     padding: 20px;
+    text-align: center;
 }
 
 nav ul {
@@ -30,35 +25,14 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.hero {
-    padding: 50px;
-    background: #007BFF;
-    color: white;
-}
-
-.hero .btn {
-    display: inline-block;
-    background: white;
-    color: #007BFF;
-    padding: 10px 20px;
-    margin-top: 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+section {
+    padding: 50px 0;
 }
 
 footer {
     background: #222;
-    color: white;
+    text-align: center;
     padding: 20px;
-    margin-top: 50px;
-}
-
-.social-icons a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
 }
