@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00c3ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn {
+    background: #00c3ff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.service-box {
+    background: #222;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.portfolio-grid img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 10px;
+}
+
+footer {
+    background: #222;
+    padding: 10px;
+    margin-top: 20px;
+}
