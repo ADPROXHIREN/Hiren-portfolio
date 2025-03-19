@@ -1,5 +1,6 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -17,6 +18,7 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -38,14 +40,15 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 120px 20px;
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .hero h1 {
     font-size: 3rem;
-    animation: fadeIn 2s ease-in-out;
+    animation: slideIn 1.5s ease-in-out;
 }
 
 .hero p {
@@ -64,6 +67,7 @@ nav ul li a:hover {
 
 .btn:hover {
     background: #e67e22;
+    transform: scale(1.1);
 }
 
 /* Services */
@@ -86,16 +90,13 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #000;
-    color: white;
-}
-
 /* Animations */
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(-10px); }
-    100% { opacity: 1; transform: translateY(0); }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-30px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
 }
