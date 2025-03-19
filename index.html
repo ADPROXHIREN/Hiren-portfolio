@@ -3,74 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdProxHiren - Digital Marketing Agency</title>
+    <title>AdProx Hiren - Digital Marketing Agency</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script defer src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
     <header>
         <div class="logo">
-            <img src="images/IMG_20250124_225617_827.webp" alt="AdProxHiren Logo">
+            <img src="images/logo.png" alt="AdProx Hiren">
         </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
-        <h1>Grow Your Business with AdProxHiren</h1>
-        <p>Expert Digital Marketing & Ad Services to Skyrocket Your Brand</p>
-        <a href="#contact" class="cta">Get Started</a>
+        <h1>Grow Your Business with AdProx Hiren</h1>
+        <p>We provide expert digital marketing solutions to boost your online presence.</p>
+        <a href="#contact" class="btn">Get Started</a>
     </section>
 
-    <!-- Services Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a passionate team of digital marketers dedicated to helping businesses grow. Our expertise in SEO, social media marketing, and paid advertising ensures your brand gets the recognition it deserves.</p>
+    </section>
+
     <section id="services">
         <h2>Our Services</h2>
-        <div class="service-list">
-            <div class="service">
-                <h3>Meta & Google Ads</h3>
-                <p>Boost your sales with high-converting ad campaigns.</p>
-            </div>
-            <div class="service">
-                <h3>Graphic Design</h3>
-                <p>Creative & professional design solutions.</p>
-            </div>
-            <div class="service">
-                <h3>Email & Content Marketing</h3>
-                <p>Engage & convert customers with powerful content.</p>
-            </div>
+        <div class="service-box">
+            <h3>SEO Optimization</h3>
+            <p>Rank higher on Google with our expert SEO strategies.</p>
+        </div>
+        <div class="service-box">
+            <h3>Social Media Marketing</h3>
+            <p>Grow your brand’s presence on Instagram, Facebook, and LinkedIn.</p>
+        </div>
+        <div class="service-box">
+            <h3>Google Ads & PPC</h3>
+            <p>Get instant traffic with our data-driven ad campaigns.</p>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <h2>Our Work</h2>
-        <img src="images/portfolio-example.jpg" alt="Portfolio Example">
-    </section>
-
-    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
+        <form action="https://formspree.io/f/xexample" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
-        <p>Email: <a href="mailto:adproxhiren.marketing@gmail.com">adproxhiren.marketing@gmail.com</a></p>
-        <p>Phone: +91 9081321291</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 AdProxHiren. All Rights Reserved.</p>
+        <p>© 2025 AdProx Hiren. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </div>
     </footer>
 
 </body>
